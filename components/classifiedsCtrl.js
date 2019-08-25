@@ -4,6 +4,7 @@
 
     angular
         .module('ngClassifieds')
+        //using inline array notation of DI 
         .controller('classifiedsCtrl', [
             '$scope', 
             //this is the constructor function for controller component 
@@ -15,7 +16,10 @@
                 //so basically in controllers $scope properties can be 
                 //manipulated and that refreshes the view on front-end
                 //using DIGEST CYCLE
-                $scope.name = 'Ryan';    
+                $scope.name = {
+                    first: 'John',
+                    last: 'Doe'
+                };    
             }
         ]);
 

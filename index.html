@@ -12,8 +12,16 @@
     ng-app="ngClassifieds" 
     ng-controller="classifiedsCtrl"
 >
+    <!--input type="text" placeholder="Enter your name" ng-model="name.first"-->
     <input type="text" placeholder="Enter your name" ng-model="name">
-    <h1>{{ name }}</h1>
+    <!--
+        Angular Templating: {{}}
+        Can do simple maths.
+        String concatenation using +.     
+    -->
+    <!--h1>{{ name }}</h1-->
+    <!--h1>{{ 7 + 2 }}</h1-->
+    <h1>{{ name.first + ' ' + name.last }}</h1>
 
     <script src="node_modules/angular/angular.js"></script>
     <script src="scripts/app.js"></script>
