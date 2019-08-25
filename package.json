@@ -1,0 +1,15 @@
+{
+  "name": "ng-classified",
+  "version": "1.0.0",
+  "description": "code angular js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dtripathi",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.8",
+    "angular-material": "^1.1.20"
+  }
+}
